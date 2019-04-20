@@ -45,3 +45,20 @@ int checkDate(Calendario calen){
         }
     }
 }
+//punto 3
+
+using namespace std;
+
+void printHelloMsg(string a="aaaa", int b=1){
+    if(b==-1){
+        cout<<"adios"<<endl;
+        return;
+    }
+    if(b>0){
+        for(int i=1; i<=b;i++){
+            cout<<a<<endl;
+        }
+    }
+
+}
+
